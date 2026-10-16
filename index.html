@@ -1,0 +1,144 @@
+```html
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STONE ISLAND</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background: #101010;
+            color: white;
+            font-family: Arial, sans-serif;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 25px 8%;
+            border-bottom: 1px solid #292929;
+        }
+
+        .logo {
+            font-size: 22px;
+            font-weight: bold;
+            letter-spacing: 3px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-left: 20px;
+            font-size: 12px;
+        }
+
+        .hero {
+            min-height: 80vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 30px;
+            background:
+                radial-gradient(ellipse at center,
+                #303a30 0%, #171717 45%, #101010 75%);
+        }
+
+        .hero h1 {
+            font-size: clamp(35px, 8vw, 85px);
+            letter-spacing: 8px;
+            margin-bottom: 20px;
+        }
+
+        .hero p {
+            color: #b6b6b6;
+            letter-spacing: 4px;
+            font-size: 12px;
+            margin-bottom: 35px;
+        }
+
+        .btn {
+            padding: 14px 30px;
+            border: 1px solid #b3c69b;
+            color: white;
+            text-decoration: none;
+            letter-spacing: 2px;
+            font-size: 12px;
+            transition: 0.3s;
+        }
+
+        .btn:hover {
+            background: #b3c69b;
+            color: black;
+        }
+
+        .about {
+            text-align: center;
+            padding: 65px 20px;
+        }
+
+        .about h2 {
+            letter-spacing: 4px;
+            margin-bottom: 20px;
+        }
+
+        .about p {
+            max-width: 550px;
+            margin: auto;
+            color: #999;
+            line-height: 1.8;
+        }
+
+        footer {
+            text-align: center;
+            padding: 25px;
+            color: #777;
+            border-top: 1px solid #292929;
+            font-size: 11px;
+            letter-spacing: 2px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <div class="logo">STONE ISLAND</div>
+
+        <nav>
+            <a href="#home">HOME</a>
+            <a href="#about">ABOUT</a>
+        </nav>
+    </header>
+
+    <section class="hero" id="home">
+        <h1>STONE ISLAND</h1>
+        <p>RESEARCH. FUNCTION. FUTURE.</p>
+        <a href="#about" class="btn">DISCOVER MORE</a>
+    </section>
+
+    <section class="about" id="about">
+        <h2>BEYOND THE ORDINARY</h2>
+        <p>
+            Explore a world of modern streetwear,
+            functional design, and timeless style.
+            Made for those who dare to be different.
+        </p>
+    </section>
+
+    <footer>
+        CONCEPT DESIGN · 2026
+    </footer>
+
+</body>
+</html>
+```
